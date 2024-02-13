@@ -48,6 +48,7 @@ header{
     background-color: var(--color-orange);
     color: var(--color-white-bg);
     width: 100%;
+    
 }
 .fixed{
     position: fixed;
@@ -63,6 +64,9 @@ header{
     width: calc(100% / 3 - 10px);
     cursor: pointer;
 }
+.item-image{
+    position: relative;
+}
 .second-image{
     display: none;
 }
@@ -73,6 +77,34 @@ header{
 
 .item-image:hover .second-image{
     display: block; 
+}
+.heart{
+    background-color: var(--color-white-bg);
+    position: absolute;
+    right: 0;
+    top: 15%;
+    padding: 5px 15px;
+}
+.badge{
+    color:var(--color-white-bg);
+    padding: 5px;
+    position: absolute;
+}
+.red{
+    bottom: 35px;
+    left:0;
+    background-color: red;
+}
+.green{
+    background-color: green;
+    bottom: 35px;
+    left: 50px;
+}
+.color-grey{
+    color: grey;
+}
+.txt-line{
+    text-decoration: line-through;
 }
 
 /* FOOTER */
