@@ -26,7 +26,7 @@ body{
 }
 .container{
     max-width: 1200px;
-    margin: 10px auto;
+    margin: 0px auto;
     text-align: center;
 }
 /* FLEX UTILITY */
@@ -48,7 +48,11 @@ header{
     background-color: var(--color-orange);
     color: var(--color-white-bg);
     width: 100%;
+    color: var(--color-white-bg);
     
+}
+ul li{
+    padding: 0 5px;
 }
 .fixed{
     position: fixed;
@@ -79,10 +83,13 @@ header{
     display: block; 
 }
 .heart{
+    display: inline;
+    font-size: 1.3em;
+    color: var(--color-Footer);
     background-color: var(--color-white-bg);
     position: absolute;
     right: 0;
-    top: 15%;
+    top: 15px;
     padding: 5px 15px;
 }
 .badge{
@@ -101,12 +108,22 @@ header{
     left: 50px;
 }
 .color-grey{
+    font-size: 0.8em;
     color: grey;
+}
+.txt-red{
+    font-weight: bold;
+    color: red;
 }
 .txt-line{
     text-decoration: line-through;
 }
-
+.txt-left{
+    text-align: left;
+}
+.heart:hover{
+    color: red;
+}
 /* FOOTER */
 footer{
     background-color: var(--color-Footer);
