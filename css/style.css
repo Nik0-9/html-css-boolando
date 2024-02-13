@@ -58,9 +58,15 @@ header{
     width: 150px;
     height: auto;
 }
-/* main */
+/* MAIN */
 
 .item{
     width: calc(100% / 3 - 10px);
     cursor: pointer;
+}
+
+/* FOOTER */
+footer{
+    background-color: var(--color-Footer);
+    color: var(--color-white-bg);
 }
