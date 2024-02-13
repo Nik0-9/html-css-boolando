@@ -54,15 +54,25 @@ header{
     top: 0;
     left: 0;
 }
-.small{
-    width: 150px;
-    height: auto;
+.small-logo{
+    width: 170px;
 }
 /* MAIN */
 
 .item{
     width: calc(100% / 3 - 10px);
     cursor: pointer;
+}
+.second-image{
+    display: none;
+}
+
+.item-image:hover .first-image{
+    display: none;
+}
+
+.item-image:hover .second-image{
+    display: block; 
 }
 
 /* FOOTER */
