@@ -9,6 +9,7 @@ ul{
 }
 a{
     text-decoration: none;
+    color:var(--color-white-bg)
 }
 img{
     width: 100%;
@@ -28,6 +29,7 @@ body{
     max-width: 1200px;
     margin: 0px auto;
     text-align: center;
+    padding: 30px 0;
 }
 /* FLEX UTILITY */
 .d-flex{
@@ -65,8 +67,10 @@ ul li{
 /* MAIN */
 
 .item{
+    display: inline-block;
     width: calc(100% / 3 - 10px);
     cursor: pointer;
+    padding: 20px 10px;
 }
 .item-image{
     position: relative;
@@ -94,7 +98,7 @@ ul li{
 }
 .badge{
     color:var(--color-white-bg);
-    padding: 5px;
+    padding: 1%;
     position: absolute;
 }
 .red{
